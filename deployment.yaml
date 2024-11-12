@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     app: unnati
-  name: pavan
+  name: pavan1
 spec:
   replicas: 1
   selector:
