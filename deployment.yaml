@@ -3,19 +3,19 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: unnati
+    app: unnati1
   name: pavan1
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: unnati
+      app: unnati1
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: unnati
+        app: unnati1
     spec:
       containers:
       - image: docker.io/httpd
